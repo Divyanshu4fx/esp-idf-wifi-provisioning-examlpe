@@ -92,7 +92,7 @@ idf.py monitor
 
 1. Device starts in unprovisioned state
 2. Use ESP SoftAP or BLE provisioning app
-   - Android/iOS: ESP BLE Provisioning App
+   - Android/iOS: [ESP BLE Provisioning App](https://play.google.com/store/apps/details?id=com.espressif.provble)
 
 ### Provisioning Steps
 
@@ -110,12 +110,6 @@ idf.py monitor
 - `event_handler()`: Manages WiFi connection events
 - `rest_get()`: Fetches cat fact via HTTP
 - `wifi_task()`: Monitors WiFi connection
-
-### Error Handling
-
-- NVS (Non-Volatile Storage) initialization
-- WiFi connection retry mechanism
-- Graceful error logging
 
 ## Troubleshooting
 
